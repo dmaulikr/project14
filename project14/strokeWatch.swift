@@ -9,32 +9,36 @@
 import Foundation
 
 class strokeWatch {
-    private var t : Timer = Timer()
+    private var lastPressed : Double
+    private var justPressed : Double
     private var timesElapSec = Array<Double>(repeating: 0, count: 3)
     
-    init(){
-        t.startTimer()
+    init() {
+        lastPressed = 0
+        justPressed = 0
     }
     
     func getRate() -> Int?{
         //make sure enough times have been inputted
         guard timesElapSec[2] != 0 else {
+            print(timesElapSec)
             return nil
         }
         
-        // let avgElap = timesElapSec.reduce(0, {$0 + $1})
+        let avgElap = (timesElapSec[0] + timesElapSec[1] + timesElapSec[2]) / 3
         return Int(60 / avgElap)
     }
     
     func push() {
-        t.stopTimer()
+        print(getRate())
+        justPressed = NSTimeIntervalSince1970
         
         //0 is latest value, 1 is second, 2 is third
         timesElapSec[2] = timesElapSec[1]
         timesElapSec[1] = timesElapSec[0]
-        timesElapSec[0] = t.getElapsedTimeSeconds()
+        timesElapSec[0] = lastPressed - justPressed
         
-        t.startTimer()
+        lastPressed = NSTimeIntervalSince1970
     }
     
 }
