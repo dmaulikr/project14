@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		16B7A7851EB2C16900DAAD62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7841EB2C16900DAAD62 /* AppDelegate.swift */; };
-		16B7A7871EB2C16900DAAD62 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7861EB2C16900DAAD62 /* RootViewController.swift */; };
-		16B7A7891EB2C16900DAAD62 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7881EB2C16900DAAD62 /* DataViewController.swift */; };
-		16B7A78B1EB2C16900DAAD62 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A78A1EB2C16900DAAD62 /* ModelController.swift */; };
 		16B7A78E1EB2C16900DAAD62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B7A78C1EB2C16900DAAD62 /* Main.storyboard */; };
 		16B7A7901EB2C16900DAAD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B7A78F1EB2C16900DAAD62 /* Assets.xcassets */; };
 		16B7A7931EB2C16900DAAD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B7A7911EB2C16900DAAD62 /* LaunchScreen.storyboard */; };
 		16B7A79E1EB2C16900DAAD62 /* project14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A79D1EB2C16900DAAD62 /* project14Tests.swift */; };
 		16B7A7A91EB2C16A00DAAD62 /* project14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7A81EB2C16A00DAAD62 /* project14UITests.swift */; };
+		16B7A7B71EB2C18700DAAD62 /* strokeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7B61EB2C18700DAAD62 /* strokeWatch.swift */; };
+		16B7A7B91EB2C19D00DAAD62 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7B81EB2C19D00DAAD62 /* Timer.swift */; };
+		16B7A7BB1EB2C1B700DAAD62 /* conversionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7BA1EB2C1B700DAAD62 /* conversionTable.swift */; };
+		16B7A7BD1EB2C1C300DAAD62 /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7BC1EB2C1C300DAAD62 /* Split.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,6 @@
 /* Begin PBXFileReference section */
 		16B7A7811EB2C16900DAAD62 /* project14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B7A7841EB2C16900DAAD62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16B7A7861EB2C16900DAAD62 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		16B7A7881EB2C16900DAAD62 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		16B7A78A1EB2C16900DAAD62 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		16B7A78D1EB2C16900DAAD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16B7A78F1EB2C16900DAAD62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16B7A7921EB2C16900DAAD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,10 @@
 		16B7A7A41EB2C16900DAAD62 /* project14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B7A7A81EB2C16A00DAAD62 /* project14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project14UITests.swift; sourceTree = "<group>"; };
 		16B7A7AA1EB2C16A00DAAD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B7A7B61EB2C18700DAAD62 /* strokeWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strokeWatch.swift; sourceTree = "<group>"; };
+		16B7A7B81EB2C19D00DAAD62 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		16B7A7BA1EB2C1B700DAAD62 /* conversionTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversionTable.swift; sourceTree = "<group>"; };
+		16B7A7BC1EB2C1C300DAAD62 /* Split.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,11 @@
 		16B7A7831EB2C16900DAAD62 /* project14 */ = {
 			isa = PBXGroup;
 			children = (
+				16B7A7BA1EB2C1B700DAAD62 /* conversionTable.swift */,
+				16B7A7BC1EB2C1C300DAAD62 /* Split.swift */,
+				16B7A7B61EB2C18700DAAD62 /* strokeWatch.swift */,
+				16B7A7B81EB2C19D00DAAD62 /* Timer.swift */,
 				16B7A7841EB2C16900DAAD62 /* AppDelegate.swift */,
-				16B7A7861EB2C16900DAAD62 /* RootViewController.swift */,
-				16B7A7881EB2C16900DAAD62 /* DataViewController.swift */,
-				16B7A78A1EB2C16900DAAD62 /* ModelController.swift */,
 				16B7A78C1EB2C16900DAAD62 /* Main.storyboard */,
 				16B7A78F1EB2C16900DAAD62 /* Assets.xcassets */,
 				16B7A7911EB2C16900DAAD62 /* LaunchScreen.storyboard */,
@@ -268,9 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16B7A7871EB2C16900DAAD62 /* RootViewController.swift in Sources */,
-				16B7A78B1EB2C16900DAAD62 /* ModelController.swift in Sources */,
-				16B7A7891EB2C16900DAAD62 /* DataViewController.swift in Sources */,
+				16B7A7B71EB2C18700DAAD62 /* strokeWatch.swift in Sources */,
+				16B7A7BD1EB2C1C300DAAD62 /* Split.swift in Sources */,
+				16B7A7B91EB2C19D00DAAD62 /* Timer.swift in Sources */,
+				16B7A7BB1EB2C1B700DAAD62 /* conversionTable.swift in Sources */,
 				16B7A7851EB2C16900DAAD62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
