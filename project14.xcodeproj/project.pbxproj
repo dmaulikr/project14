@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1623AB061EB787240039E3FD /* strokeWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1623AB051EB787240039E3FD /* strokeWatchView.swift */; };
 		16B7A7851EB2C16900DAAD62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7841EB2C16900DAAD62 /* AppDelegate.swift */; };
 		16B7A78E1EB2C16900DAAD62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B7A78C1EB2C16900DAAD62 /* Main.storyboard */; };
 		16B7A7901EB2C16900DAAD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B7A78F1EB2C16900DAAD62 /* Assets.xcassets */; };
@@ -15,8 +16,8 @@
 		16B7A7A91EB2C16A00DAAD62 /* project14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7A81EB2C16A00DAAD62 /* project14UITests.swift */; };
 		16B7A7B71EB2C18700DAAD62 /* strokeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7B61EB2C18700DAAD62 /* strokeWatch.swift */; };
 		16B7A7BB1EB2C1B700DAAD62 /* conversionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7BA1EB2C1B700DAAD62 /* conversionTable.swift */; };
-		16B7A7BD1EB2C1C300DAAD62 /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7BC1EB2C1C300DAAD62 /* Split.swift */; };
-		16B7A7BF1EB2C5C400DAAD62 /* baseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7BE1EB2C5C400DAAD62 /* baseViewController.swift */; };
+		16B7A7BD1EB2C1C300DAAD62 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7BC1EB2C1C300DAAD62 /* Time.swift */; };
+		16B7A7C11EB3CAEB00DAAD62 /* conversionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7A7C01EB3CAEB00DAAD62 /* conversionTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1623AB051EB787240039E3FD /* strokeWatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strokeWatchView.swift; sourceTree = "<group>"; };
 		16B7A7811EB2C16900DAAD62 /* project14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B7A7841EB2C16900DAAD62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16B7A78D1EB2C16900DAAD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,8 +53,8 @@
 		16B7A7AA1EB2C16A00DAAD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B7A7B61EB2C18700DAAD62 /* strokeWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strokeWatch.swift; sourceTree = "<group>"; };
 		16B7A7BA1EB2C1B700DAAD62 /* conversionTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversionTable.swift; sourceTree = "<group>"; };
-		16B7A7BC1EB2C1C300DAAD62 /* Split.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
-		16B7A7BE1EB2C5C400DAAD62 /* baseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = baseViewController.swift; sourceTree = "<group>"; };
+		16B7A7BC1EB2C1C300DAAD62 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		16B7A7C01EB3CAEB00DAAD62 /* conversionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversionTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				16B7A7BA1EB2C1B700DAAD62 /* conversionTable.swift */,
-				16B7A7BC1EB2C1C300DAAD62 /* Split.swift */,
+				16B7A7BC1EB2C1C300DAAD62 /* Time.swift */,
 				16B7A7B61EB2C18700DAAD62 /* strokeWatch.swift */,
 				16B7A7841EB2C16900DAAD62 /* AppDelegate.swift */,
-				16B7A7BE1EB2C5C400DAAD62 /* baseViewController.swift */,
+				16B7A7C01EB3CAEB00DAAD62 /* conversionTableView.swift */,
+				1623AB051EB787240039E3FD /* strokeWatchView.swift */,
 				16B7A78C1EB2C16900DAAD62 /* Main.storyboard */,
 				16B7A78F1EB2C16900DAAD62 /* Assets.xcassets */,
 				16B7A7911EB2C16900DAAD62 /* LaunchScreen.storyboard */,
@@ -272,10 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B7A7B71EB2C18700DAAD62 /* strokeWatch.swift in Sources */,
-				16B7A7BD1EB2C1C300DAAD62 /* Split.swift in Sources */,
+				16B7A7BD1EB2C1C300DAAD62 /* Time.swift in Sources */,
 				16B7A7BB1EB2C1B700DAAD62 /* conversionTable.swift in Sources */,
+				16B7A7C11EB3CAEB00DAAD62 /* conversionTableView.swift in Sources */,
 				16B7A7851EB2C16900DAAD62 /* AppDelegate.swift in Sources */,
-				16B7A7BF1EB2C5C400DAAD62 /* baseViewController.swift in Sources */,
+				1623AB061EB787240039E3FD /* strokeWatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +530,7 @@
 				16B7A7AF1EB2C16A00DAAD62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B7A7B01EB2C16A00DAAD62 /* Build configuration list for PBXNativeTarget "project14Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				16B7A7B21EB2C16A00DAAD62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B7A7B31EB2C16A00DAAD62 /* Build configuration list for PBXNativeTarget "project14UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				16B7A7B51EB2C16A00DAAD62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class strokeWatch {
+class StrokeWatch {
     private var lastPressed : Double
     private var justPressed : Double
     private var timesElapSec = Array<Double>(repeating: 0, count: 3)
@@ -31,14 +31,14 @@ class strokeWatch {
     
     func push() {
         print(getRate())
-        justPressed = NSTimeIntervalSince1970
-        
+        lastPressed = justPressed
+        justPressed = Double(mach_absolute_time()) / 1000000000
         //0 is latest value, 1 is second, 2 is third
         timesElapSec[2] = timesElapSec[1]
         timesElapSec[1] = timesElapSec[0]
-        timesElapSec[0] = lastPressed - justPressed
-        
-        lastPressed = NSTimeIntervalSince1970
+        timesElapSec[0] = justPressed - lastPressed
+        print("Last: " + String(lastPressed))
+        print("Just: " + String(justPressed))
     }
     
 }

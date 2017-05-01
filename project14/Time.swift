@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Split : CustomStringConvertible{
+struct Time : CustomStringConvertible{
     let totalSeconds : Double
     let minutes : Int
     let seconds : Double
